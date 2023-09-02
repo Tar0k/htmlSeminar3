@@ -108,6 +108,7 @@ h3 {
 .buttons {
     display: flex;
     gap: 36px;
+    margin-top: 37px;
 }
 
 .start_button{
@@ -135,6 +136,8 @@ h3 {
 }
 
 footer {
+    height: 243px;
     display: flex;
     gap: 48px;
+    align-items: center;
 }
