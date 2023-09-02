@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("./fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url("./fonts/Gilroy-Medium.ttf");
+}
+
+.center_section {
+    margin-left: calc(50% - 585px);
+    margin-right: calc(50% - 585px);
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.nav_logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo_text_left {
+    color: #000;
+}
+
+.logo_text_right {
+    color: #F25822;
+}
+
+.nav_items {
+    display: flex;
+    width: 533px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav_item {
+    color: #000;
+}
+
+.home_button {
+    color: #F25822;
+}
+
+.nav_dropdown_item {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown_icon {
+    margin: 7px 0 7px 0;
+    flex-shrink: 0;
+}
+
+.main_image {
+    width: 545px;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    margin-top: 84px;
+    margin-bottom: 162px;
+    gap: 41px;
+}
+
+h1 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3 {
+    margin: 17px 0 17px 0;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttons {
+    display: flex;
+    gap: 36px;
+}
+
+.start_button{
+    padding: 15px 35px 16px 36px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.watch_button {
+    border: 0;
+    background: none;
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer {
+    display: flex;
+    gap: 48px;
+}
