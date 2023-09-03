@@ -70,7 +70,7 @@
 }
 
 .dropdown_icon {
-    margin: 7px 0 7px 0;
+    margin: 7px 0 2px 0;
     flex-shrink: 0;
 }
 
@@ -112,6 +112,7 @@ h3 {
 }
 
 .start_button{
+    border: none;
     padding: 15px 35px 16px 36px;
     border-radius: 50px;
     background: #F25822;
